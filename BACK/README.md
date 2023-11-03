@@ -2,6 +2,15 @@
 
 Backend do projeto de desafio proposto pela empresa Ada Tech, seguindo as [instruções propostas](https://gitlab.com/gabriel.militello1/desafio-tecnico).
 
+## Iniciando
+(esta parte não é necessária se estiver rodando através do Docker)
+- Renomear o arquivo .env.example para .env
+- O frontend espera o usuário "letscode" e senha "lets@123"
+
+## Comandos
+Iniciar o servidor de desenvolvimento: `npm run dev` \
+Rodar tests: `npm run test`
+
 ## Considerações
 - Para a construção dessa API eu utilizei Express, como foi exigido pelas instruções, mas hoje existem alternativas muito boas para esse tipo de trabalho, como o Restify.
 - Apesar de não existir nenhuma regra para isso na documentação do protocolo REST, ao fazer uma requisição do tipo DELETE eu normalmente prefiro retornar o elemento que foi removido ao invés da lista restante, como foi exigido. Isso é puramente minha preferência pessoal.
@@ -20,8 +29,3 @@ Backend do projeto de desafio proposto pela empresa Ada Tech, seguindo as [instr
 - **sequelize**: ORM para o SQLite.
 - **jest**: Framework de testes.
 - **supertest**: Biblioteca de testes auxiliar para testes com requisições HTTP.
-
-## Comandos
-
-Iniciar o servidor de desenvolvimento: `npm run dev` \
-Rodar tests: `npm run test`

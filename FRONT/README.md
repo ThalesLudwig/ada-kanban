@@ -2,6 +2,10 @@
 
 Frontend do projeto de desafio proposto pela empresa Ada Tech, seguindo as [instruções propostas](https://gitlab.com/gabriel.militello1/desafio-tecnico).
 
+## Comandos
+Iniciar o servidor de desenvolvimento: `npm run dev` \
+Rodar tests: `npm run test`
+
 ## Considerações
 - Inicialmente eu havia escolhido desenvolver o projeto utilizando Next.js, porém o mesmo me pareceu desnecessariamente robusto para um projeto tão simples como esse. Acabei optando pelo Vite, que geraria somente o necessário, sem código boilerplate.
 - Com o uso do Vite também vieram algumas incompatibilidades, como o Jest. Apesar de ser possível - com certo trabalho - fazer essa integração funcionar, acabei optando por utilizar a biblioteca Vitest no lugar no Jest. O Vitest é um framework de testes Jest-friendly feito especialmente para o Vite.
@@ -24,8 +28,3 @@ Frontend do projeto de desafio proposto pela empresa Ada Tech, seguindo as [inst
 - **react-toastify**: Usei para exibir um toast de notificação quando algum erro acontece. Com sorte, você nunca vai vê-lo.
 - **react-testing-library**: Usei para testar os componentes React.
 - **styled-components**: Usei para auxiliar durante o desenvolvimento do CSS, e principalmente pelas habilidades de tematização.
-
-## Comandos
-
-Iniciar o servidor de desenvolvimento: `npm run dev` \
-Rodar tests: `npm run test`
