@@ -5,6 +5,7 @@ Projeto de desafio proposto pela empresa Ada Tech, seguindo as [instruções pro
 ## Considerações
 - Cada projeto possui um README próprio com **MUITO** mais informações e considerações.
 - Cada projeto pode ser iniciado separadamente com `npm run dev`, caso prefira não usar o inicializador do Docker.
+- As dependências podem ser instaladas rodando `npm install` na raiz, caso decida não usar Docker.
 
 ## Comandos
 
