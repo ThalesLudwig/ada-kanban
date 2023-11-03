@@ -1,0 +1,1 @@
+export type Column = "ToDo" | "Doing" | "Done";

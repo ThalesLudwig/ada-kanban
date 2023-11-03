@@ -1,0 +1,26 @@
+{
+  "name": "ada-kanban",
+  "version": "1.0.0",
+  "description": "Challenge project for Ada Tech",
+  "workspaces": ["BACK", "FRONT"],
+  "scripts": {
+    "back": "cd BACK && npm run dev",
+    "front": "cd FRONT && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThalesLudwig/ada-kanban.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "typescript",
+    "react"
+  ],
+  "author": "Thales Ludwig Valentini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThalesLudwig/ada-kanban/issues"
+  },
+  "homepage": "https://github.com/ThalesLudwig/ada-kanban#readme"
+}
